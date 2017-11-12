@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2D44CB1FA3FFC80021DF2E /* CenterCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D44CA1FA3FFC80021DF2E /* CenterCollectionViewFlowLayout.swift */; };
+		0A2D44CD1FA408F60021DF2E /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D44CC1FA408F60021DF2E /* MyCell.swift */; };
+		0A3D3EC21FA44C1C00B30F69 /* CarouselCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3EC11FA44C1C00B30F69 /* CarouselCollectionViewLayout.swift */; };
+		0A6D4D0E1FA570E20033F520 /* InfiniteHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D4D0D1FA570E20033F520 /* InfiniteHorizontalLayout.swift */; };
 		0AF40D291FA3FEF400ED8CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40D281FA3FEF400ED8CF1 /* AppDelegate.swift */; };
 		0AF40D2B1FA3FEF400ED8CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40D2A1FA3FEF400ED8CF1 /* ViewController.swift */; };
 		0AF40D2E1FA3FEF400ED8CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF40D2C1FA3FEF400ED8CF1 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2D44CA1FA3FFC80021DF2E /* CenterCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0A2D44CC1FA408F60021DF2E /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		0A3D3EC11FA44C1C00B30F69 /* CarouselCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewLayout.swift; sourceTree = "<group>"; };
+		0A6D4D0D1FA570E20033F520 /* InfiniteHorizontalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteHorizontalLayout.swift; sourceTree = "<group>"; };
 		0AF40D251FA3FEF400ED8CF1 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF40D281FA3FEF400ED8CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AF40D2A1FA3FEF400ED8CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3D3EC01FA44BD100B30F69 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				0A2D44CA1FA3FFC80021DF2E /* CenterCollectionViewFlowLayout.swift */,
+				0A3D3EC11FA44C1C00B30F69 /* CarouselCollectionViewLayout.swift */,
+				0A6D4D0D1FA570E20033F520 /* InfiniteHorizontalLayout.swift */,
+			);
+			name = layout;
+			sourceTree = "<group>";
+		};
 		0AF40D1C1FA3FEF400ED8CF1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +72,14 @@
 		0AF40D271FA3FEF400ED8CF1 /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D3EC01FA44BD100B30F69 /* layout */,
 				0AF40D281FA3FEF400ED8CF1 /* AppDelegate.swift */,
 				0AF40D2A1FA3FEF400ED8CF1 /* ViewController.swift */,
 				0AF40D2C1FA3FEF400ED8CF1 /* Main.storyboard */,
 				0AF40D2F1FA3FEF400ED8CF1 /* Assets.xcassets */,
 				0AF40D311FA3FEF400ED8CF1 /* LaunchScreen.storyboard */,
 				0AF40D341FA3FEF400ED8CF1 /* Info.plist */,
+				0A2D44CC1FA408F60021DF2E /* MyCell.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2D44CB1FA3FFC80021DF2E /* CenterCollectionViewFlowLayout.swift in Sources */,
+				0A2D44CD1FA408F60021DF2E /* MyCell.swift in Sources */,
 				0AF40D2B1FA3FEF400ED8CF1 /* ViewController.swift in Sources */,
 				0AF40D291FA3FEF400ED8CF1 /* AppDelegate.swift in Sources */,
+				0A3D3EC21FA44C1C00B30F69 /* CarouselCollectionViewLayout.swift in Sources */,
+				0A6D4D0E1FA570E20033F520 /* InfiniteHorizontalLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +323,7 @@
 				0AF40D391FA3FEF400ED8CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
